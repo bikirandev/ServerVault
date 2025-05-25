@@ -17,7 +17,7 @@ namespace ServerVault
             // Ask for the user's favorite fruit
             var fruit = AnsiConsole.Prompt(
                 new SelectionPrompt<string>()
-                    .Title("What's your [green]favorite fruit[/]?")
+                    .Title("Please chose an [green]option[/]")
                     .PageSize(10)
                     .MoreChoicesText("[grey](Move up and down to reveal more fruits)[/]")
                     .AddChoices(serverTitles));
